@@ -1,0 +1,8 @@
+<h2>Skills</h2>
+<ul>
+    <li *ngFor="let skill of skills" 
+    [class.selected]="skill === selectedSkill">
+    {{skill.name}} <button (click)="onSelect(skill)">Show more</button></li>
+</ul>
+
+<app-skill-detail [skill]="selectedSkill"></app-skill-detail>
