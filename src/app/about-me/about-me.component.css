@@ -1,0 +1,7 @@
+
+mat-chip-list {
+    display: flex;
+}
+mat-chip {
+    justify-content: flex-end;
+}
