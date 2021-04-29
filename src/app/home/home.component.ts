@@ -6,7 +6,7 @@ const itemImageUrl = '../assets/roks.jpg';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  itemImageUrl = '../assets/roks.jpg';
+  itemImageUrl = '~../assets/roks.jpg';
   constructor() { }
 
   ngOnInit(): void {
